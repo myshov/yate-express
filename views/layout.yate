@@ -1,0 +1,14 @@
+module "layout"
+
+match / {
+    <html>
+        <head>
+            <title>
+                apply .title layout__title
+            </title>
+        </head>
+        <body>
+            apply .body layout__body
+        </body>
+    </html>
+}

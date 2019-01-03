@@ -1,0 +1,13 @@
+module "main"
+
+include "layout.yate"
+
+match .title layout__title {
+    .
+}
+
+match .body layout__body {
+    <h1>
+        .
+    </h1>
+}
